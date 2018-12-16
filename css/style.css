@@ -1,0 +1,84 @@
+/* Navbar Styling Starts Here*/
+
+#top-section{
+    background: linear-gradient(to right top, rgb(0, 0, 0), rgba(64, 0, 184, 0.753));
+    padding-bottom: 100px;
+}
+
+.logo-finto{
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+
+.nav-link{
+    color: #fff !important;
+    margin-right: 20px;
+}
+
+.login-button{
+    background-color: #fff !important;
+    color: red !important;
+    border: 1px solid #fff !important;
+}
+
+
+/* We provide solutions styling starts here*/
+
+.provide-solutions{
+    margin-top: 120px;
+    width: 80%;
+}
+
+.get-started-button{
+    background-color: rgb(214, 44, 25) !important;
+    border-radius: 4px;
+}
+
+.play-circle{
+    padding: 15px;
+    margin-left: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    /* margin-bottom: 50px; */
+}
+#company-logo{
+    padding: 30px;
+}
+.company-logos-cover{
+    height: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-column-gap: 80px;
+    /* margin-top: 50px; */
+}
+
+.company-logos{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -13px;
+    filter: grayscale(1);
+    opacity: 0.5;
+}
+.company-logos2{
+    width: 100%;
+    height: 60%;
+    opacity: 0.5;
+    filter: grayscale(1);
+}
+
+
+/* Why finto styling starts here*/
+#why-finto{
+    background-color: #f2f2f2;
+}
+.why-finto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.why-finto-cards{
+    background-color: #fff;
+}
