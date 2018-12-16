@@ -1,10 +1,11 @@
 Vue.component('win-win', {
+    props: ['header'],
     template: `
     <div class="cover">
-        <h4>Bring to the table <br> win-win survival strategies</h4>
+        <h4> {{ header }} </h4>
         <p class="finto-grey-text mt-4 mb-4">
             We work simultaneously to integrate corporate responsibility in our core business and make our expertise available
-            for the benefit of the societies where we operate
+            for the benefit of the societies where we operat
         </p>
         <p class="finto-grey-text">
             We've been supporting WordPress since the beginning. Perfect for large sites or agencies managing multiple clients.

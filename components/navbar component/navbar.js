@@ -5,7 +5,7 @@ Vue.component('finto-logo', {
     template: `
     <div>
     <nav class="navbar navbar-expand-lg navbar-light">
-    <img src="../images/finto-logo.png" class="logo-finto">
+    <img src="../images/finto-logo.png" class="logo-finto mr-3">
     <a class="navbar-brand text-light ml-1" style="font-size:30px;" href="#">finto</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
