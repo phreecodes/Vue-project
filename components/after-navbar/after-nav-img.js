@@ -2,7 +2,7 @@
 Vue.component('after-nav-img', {
     template: `
     <div>
-        <img src="../images/laptop2.jpg" style="width:80%;height:430px;margin-top:50px; float:right;">
+        <img src="../images/building.png" style="width:120%;height:430px;margin-top:50px; float:right;">
     </div>
     
     `
