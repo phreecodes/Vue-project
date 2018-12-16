@@ -5,7 +5,7 @@ Vue.component('why-finto', {
             <div class="col">
                 <div class="container why-finto-cards">
                     <img src="../images/tree.jpg" alt="" style="border-radius:50%; width: 50px; height:50px; margin-bottom:40px;">
-                    <h5 style="margin-bottom:30px"> {{ ph }} </h5>
+                    <h6 style="margin-bottom:30px"> {{ ph }} </h6>
                     <p class="finto-grey-text">{{ ptext }}</p>
                 </div>
             </div>
