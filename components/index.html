@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -140,35 +141,69 @@
     <!--Client Section starts here-->
 
     <section id="clients">
-        <div class="container">
-            <div class="why-finto">
-                <h4>What Our Clients Are Saying About Us</h4>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="cover-image">
-                        <img src="../images/images.jpg" alt="" class="man-image">  
-                    </div>                      
-                </div>
-                <div class="col-md-7">
-                    <div class="container cover-text">
-                        <p class="finto-grey-text" style="width:70%;">
-                            A review is a survey over a whole subject or division of it, or especially an article making a critical reconsideration
-                            and summary or something withing a review of the latest book on Chaucer. A criticism is a judgment.
-                        </p>
-                    </div>
-                    <div class="founder">
-                        <h6>Major Leen.</h6>
-                        <div class="finto-grey-text">
-                            Founder, CEO
-                        </div>
+        <our-clients></our-clients>
+        <best-price></best-price>
+    </section>
 
-                    </div>
+    <!--Number cards section starts here-->
+
+    <section id="best-prices-card">
+        <best-prices-card></best-prices-card>
+    </section>
+
+    <!--Company Goal section starts here-->
+
+    <section id="company-goals">
+        <company-goals></company-goals>
+    </section>
+
+
+    <!--Footer section starts here-->
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <first-column></first-column>
+                </div>
+                <div class="col-md-3">
+                    <second-column></second-column>
+                </div>
+                <div class="col-md-3">
+                    <third-column></third-column>
                 </div>
                 <div class="col-md-2">
-                    kj;hj
+                    <forth-column></forth-column>
                 </div>
             </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="row" style="font-size:13px;">
+                        <div class="col-md-3">
+                            <p>Site Map</p>
+                        </div>
+                        <div class="col-md-4">
+                            Terms of service
+                        </div>
+                        <div class="col-md-5">
+                            Privacy
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-2 footer-social-icons">
+                    <i style="font-size: 13px;" class="fa fa-facebook-f"></i>
+                    <i style="font-size: 13px;" class="fa fa-twitter"></i>
+                    <i style="font-size: 13px;" class="fa fa-linkedin"></i>
+                    <i style="font-size: 13px;" class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright <i style="font-size:12px;" class="fa fa-copyright"></i>2018 By Nazmul Hasan Jingar</p>
         </div>
     </section>
 
@@ -191,6 +226,9 @@
     <script src="twice-profit/twice-profit.js"></script>
     <script src="services/services.js"></script>
     <script src="clients/clients.js"></script>
+    <script src="number-cards/number-cards.js"></script>
+    <script src="company-goals/company-goals.js"></script>
+    <script src="footer/footer.js"></script>
 
 </body>
 </html>
